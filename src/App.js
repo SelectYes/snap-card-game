@@ -1,9 +1,10 @@
 import "./App.css";
+import Deck from "./components/Deck/deck.component";
 
 function App() {
   return (
     <div className="App">
-      <h1>React Card Game</h1>
+      <Deck />
     </div>
   );
 }
